@@ -14,13 +14,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import ua.com.homebudget.dto.ChangePasswordRequest;
-import ua.com.homebudget.dto.ResetPasswordRequest;
-import ua.com.homebudget.dto.UserRequest;
-import ua.com.homebudget.dto.sequences.user.GroupUser;
-import ua.com.homebudget.exception.UserServiceException;
-import ua.com.homebudget.model.User;
-import ua.com.homebudget.service.UserService;
+import pl.luxoft.qpr.bilykov.dto.ChangePasswordRequest;
+import pl.luxoft.qpr.bilykov.dto.ResetPasswordRequest;
+import pl.luxoft.qpr.bilykov.dto.UserRequest;
+import pl.luxoft.qpr.bilykov.dto.sequences.user.GroupUser;
+import pl.luxoft.qpr.bilykov.exception.UserServiceException;
+import pl.luxoft.qpr.bilykov.model.User;
+import pl.luxoft.qpr.bilykov.service.UserService;
 
 @RestController
 @RequestMapping("/api/users")

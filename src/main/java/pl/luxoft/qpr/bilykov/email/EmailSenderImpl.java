@@ -15,7 +15,7 @@ import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
 import lombok.extern.slf4j.Slf4j;
-import ua.com.homebudget.dto.templates.EmailTemplateCommon;
+import pl.luxoft.qpr.bilykov.dto.templates.EmailTemplateCommon;
 
 /**
  * Created by kart on 15.11.2015.

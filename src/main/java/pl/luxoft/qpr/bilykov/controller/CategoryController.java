@@ -2,12 +2,12 @@ package pl.luxoft.qpr.bilykov.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import ua.com.homebudget.dto.ExpenseCategoryRequest;
-import ua.com.homebudget.dto.IncomeCategoryRequest;
-import ua.com.homebudget.model.ExpenseCategory;
-import ua.com.homebudget.model.IncomeCategory;
-import ua.com.homebudget.service.ExpenseCategoryService;
-import ua.com.homebudget.service.IncomeCategoryService;
+import pl.luxoft.qpr.bilykov.dto.ExpenseCategoryRequest;
+import pl.luxoft.qpr.bilykov.dto.IncomeCategoryRequest;
+import pl.luxoft.qpr.bilykov.model.ExpenseCategory;
+import pl.luxoft.qpr.bilykov.model.IncomeCategory;
+import pl.luxoft.qpr.bilykov.service.ExpenseCategoryService;
+import pl.luxoft.qpr.bilykov.service.IncomeCategoryService;
 
 import java.util.List;
 

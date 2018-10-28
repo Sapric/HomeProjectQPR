@@ -1,7 +1,7 @@
 package pl.luxoft.qpr.bilykov.service;
 
-import ua.com.homebudget.dto.IncomeCategoryRequest;
-import ua.com.homebudget.model.IncomeCategory;
+import pl.luxoft.qpr.bilykov.dto.IncomeCategoryRequest;
+import pl.luxoft.qpr.bilykov.model.IncomeCategory;
 
 import java.util.List;
 

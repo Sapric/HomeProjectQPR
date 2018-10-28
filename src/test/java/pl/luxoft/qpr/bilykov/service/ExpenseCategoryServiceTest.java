@@ -8,11 +8,11 @@ import pl.luxoft.qpr.bilykov.dto.ExpenseCategoryRequest;
 import pl.luxoft.qpr.bilykov.exception.ExpenseCategoryServiceException;
 import pl.luxoft.qpr.bilykov.model.ExpenseCategory;
 import pl.luxoft.qpr.bilykov.repository.ExpenseCategoryRepository;
-import ua.com.homebudget.DblIntegrationTest;
-import ua.com.homebudget.dto.ExpenseCategoryRequest;
-import ua.com.homebudget.exception.ExpenseCategoryServiceException;
-import ua.com.homebudget.model.ExpenseCategory;
-import ua.com.homebudget.repository.ExpenseCategoryRepository;
+import pl.luxoft.qpr.bilykov.DblIntegrationTest;
+import pl.luxoft.qpr.bilykov.dto.ExpenseCategoryRequest;
+import pl.luxoft.qpr.bilykov.exception.ExpenseCategoryServiceException;
+import pl.luxoft.qpr.bilykov.model.ExpenseCategory;
+import pl.luxoft.qpr.bilykov.repository.ExpenseCategoryRepository;
 
 import javax.transaction.Transactional;
 

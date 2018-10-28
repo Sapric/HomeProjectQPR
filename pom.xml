@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>ua.com.ua.com.homebudget</groupId>
-	<artifactId>ua.com.homebudget</artifactId>
+	<groupId>pl.luxoft.qpr.bilykov</groupId>
+	<artifactId>pl.luxoft.qpr</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Homebudget</name>
-	<description>Homebudget - finance manager</description>
+	<name>HomeBudget</name>
+	<description>Homebudget - first part for qpr</description>
 
 	<properties>
 		<build.number>${maven.build.timestamp}</build.number>

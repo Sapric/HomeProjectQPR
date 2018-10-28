@@ -14,7 +14,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 import com.github.springtestdbunit.annotation.DatabaseSetup;
 
-import ua.com.homebudget.DblIntegrationTest;
+import pl.luxoft.qpr.bilykov.DblIntegrationTest;
  
 @DatabaseSetup("../service/user.xml")
 public class UserControllerTest extends DblIntegrationTest {

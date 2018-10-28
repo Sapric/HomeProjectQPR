@@ -6,7 +6,7 @@ import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import ua.com.homebudget.IntegrationTest;
+import pl.luxoft.qpr.bilykov.IntegrationTest;
 
 public class MessageServiceTest extends IntegrationTest {
 

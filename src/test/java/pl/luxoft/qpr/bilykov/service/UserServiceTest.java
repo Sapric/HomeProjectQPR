@@ -30,13 +30,13 @@ import pl.luxoft.qpr.bilykov.exception.UserServiceException;
 import pl.luxoft.qpr.bilykov.model.User;
 import pl.luxoft.qpr.bilykov.repository.RoleRepository;
 import pl.luxoft.qpr.bilykov.repository.UserRepository;
-import ua.com.homebudget.DblIntegrationTest;
-import ua.com.homebudget.dto.UserRequest;
-import ua.com.homebudget.dto.sequences.user.GroupUser;
-import ua.com.homebudget.exception.UserServiceException;
-import ua.com.homebudget.model.User;
-import ua.com.homebudget.repository.RoleRepository;
-import ua.com.homebudget.repository.UserRepository;
+import pl.luxoft.qpr.bilykov.DblIntegrationTest;
+import pl.luxoft.qpr.bilykov.dto.UserRequest;
+import pl.luxoft.qpr.bilykov.dto.sequences.user.GroupUser;
+import pl.luxoft.qpr.bilykov.exception.UserServiceException;
+import pl.luxoft.qpr.bilykov.model.User;
+import pl.luxoft.qpr.bilykov.repository.RoleRepository;
+import pl.luxoft.qpr.bilykov.repository.UserRepository;
 
 @Transactional
 @DatabaseSetup("user.xml")

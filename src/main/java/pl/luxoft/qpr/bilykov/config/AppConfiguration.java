@@ -10,14 +10,12 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.BeanNameViewResolver;
 
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
-import ua.com.homebudget.dto.templates.EmailTemplateCommon;
-import ua.com.homebudget.dto.templates.ResetPasswordTemplate;
 
 @Configuration
 @EnableWebMvc
-@EnableJpaRepositories(basePackages = {"ua.com.homebudget.repository"})
+@EnableJpaRepositories(basePackages = {"pl.luxoft.qpr.bilykov.repository"})
 @EnableTransactionManagement
-@ComponentScan("ua.com.homebudget")
+@ComponentScan("pl.luxoft.qpr.bilykov")
 public class AppConfiguration extends WebMvcAutoConfigurationAdapter  {
 
 }

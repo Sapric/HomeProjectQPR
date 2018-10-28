@@ -2,9 +2,9 @@ package pl.luxoft.qpr.bilykov.service;
 
 import java.util.List;
 
-import ua.com.homebudget.dto.ChangePasswordRequest;
-import ua.com.homebudget.dto.UserRequest;
-import ua.com.homebudget.model.User;
+import pl.luxoft.qpr.bilykov.dto.ChangePasswordRequest;
+import pl.luxoft.qpr.bilykov.dto.UserRequest;
+import pl.luxoft.qpr.bilykov.model.User;
 
 public interface UserService {
 

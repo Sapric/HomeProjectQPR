@@ -5,12 +5,12 @@ import org.springframework.stereotype.Component;
 import pl.luxoft.qpr.bilykov.exception.ExpenseCategoryServiceException;
 import pl.luxoft.qpr.bilykov.repository.ExpenseCategoryRepository;
 import pl.luxoft.qpr.bilykov.repository.UserRepository;
-import ua.com.homebudget.dto.ExpenseCategoryRequest;
-import ua.com.homebudget.exception.ExpenseCategoryServiceException;
-import ua.com.homebudget.model.ExpenseCategory;
-import ua.com.homebudget.repository.ExpenseCategoryRepository;
-import ua.com.homebudget.repository.UserRepository;
-import ua.com.homebudget.service.ExpenseCategoryService;
+import pl.luxoft.qpr.bilykov.dto.ExpenseCategoryRequest;
+import pl.luxoft.qpr.bilykov.exception.ExpenseCategoryServiceException;
+import pl.luxoft.qpr.bilykov.model.ExpenseCategory;
+import pl.luxoft.qpr.bilykov.repository.ExpenseCategoryRepository;
+import pl.luxoft.qpr.bilykov.repository.UserRepository;
+import pl.luxoft.qpr.bilykov.service.ExpenseCategoryService;
 
 import java.util.List;
 

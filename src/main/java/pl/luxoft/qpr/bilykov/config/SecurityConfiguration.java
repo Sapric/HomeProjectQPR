@@ -15,8 +15,6 @@ import org.springframework.security.web.authentication.SimpleUrlAuthenticationFa
 
 import pl.luxoft.qpr.bilykov.security.RESTAuthenticationEntryPoint;
 import pl.luxoft.qpr.bilykov.security.RESTAuthenticationSuccessHandler;
-import ua.com.homebudget.security.RESTAuthenticationEntryPoint;
-import ua.com.homebudget.security.RESTAuthenticationSuccessHandler;
 
 @Configuration
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {

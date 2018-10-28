@@ -7,7 +7,7 @@
 		</encoder>
 	</appender>
 
-	<logger name="ua.com.homebudget" level="Debug" additivity="false">
+	<logger name="pl.luxoft.qpr.bilykov" level="Debug" additivity="false">
 		<appender-ref ref="STDOUT" />
 	</logger>
 

@@ -8,11 +8,11 @@ import pl.luxoft.qpr.bilykov.dto.IncomeCategoryRequest;
 import pl.luxoft.qpr.bilykov.exception.IncomeCategoryServiceException;
 import pl.luxoft.qpr.bilykov.model.IncomeCategory;
 import pl.luxoft.qpr.bilykov.repository.IncomeCategoryRepository;
-import ua.com.homebudget.DblIntegrationTest;
-import ua.com.homebudget.dto.IncomeCategoryRequest;
-import ua.com.homebudget.exception.IncomeCategoryServiceException;
-import ua.com.homebudget.model.IncomeCategory;
-import ua.com.homebudget.repository.IncomeCategoryRepository;
+import pl.luxoft.qpr.bilykov.DblIntegrationTest;
+import pl.luxoft.qpr.bilykov.dto.IncomeCategoryRequest;
+import pl.luxoft.qpr.bilykov.exception.IncomeCategoryServiceException;
+import pl.luxoft.qpr.bilykov.model.IncomeCategory;
+import pl.luxoft.qpr.bilykov.repository.IncomeCategoryRepository;
 
 import javax.transaction.Transactional;
 

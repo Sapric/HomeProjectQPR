@@ -7,8 +7,8 @@ import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
 
 import org.springframework.stereotype.Component;
+import pl.luxoft.qpr.bilykov.dto.templates.EmailTemplateCommon;
 
-import ua.com.homebudget.dto.templates.EmailTemplateCommon;
 
 /**
  * Created by kart on 15.11.2015.

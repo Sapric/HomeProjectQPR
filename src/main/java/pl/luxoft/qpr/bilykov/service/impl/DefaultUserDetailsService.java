@@ -13,8 +13,8 @@ import org.springframework.stereotype.Service;
 
 import lombok.extern.java.Log;
 import pl.luxoft.qpr.bilykov.repository.UserRepository;
-import ua.com.homebudget.model.User;
-import ua.com.homebudget.repository.UserRepository;
+import pl.luxoft.qpr.bilykov.model.User;
+import pl.luxoft.qpr.bilykov.repository.UserRepository;
 
 @Log
 @Service

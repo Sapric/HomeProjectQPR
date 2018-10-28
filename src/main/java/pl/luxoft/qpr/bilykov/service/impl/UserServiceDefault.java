@@ -12,18 +12,18 @@ import pl.luxoft.qpr.bilykov.exception.UserServiceException;
 import pl.luxoft.qpr.bilykov.repository.ChangePasswordRequestRepository;
 import pl.luxoft.qpr.bilykov.repository.RoleRepository;
 import pl.luxoft.qpr.bilykov.repository.UserRepository;
-import ua.com.homebudget.dto.ChangePasswordRequest;
-import ua.com.homebudget.dto.UserRequest;
-import ua.com.homebudget.dto.templates.EmailTemplateCommon;
-import ua.com.homebudget.dto.templates.ResetPasswordTemplate;
-import ua.com.homebudget.email.EmailSenderImpl;
-import ua.com.homebudget.exception.UserServiceException;
-import ua.com.homebudget.model.User;
-import ua.com.homebudget.repository.ChangePasswordRequestRepository;
-import ua.com.homebudget.repository.RoleRepository;
-import ua.com.homebudget.repository.UserRepository;
-import ua.com.homebudget.service.MessageService;
-import ua.com.homebudget.service.UserService;
+import pl.luxoft.qpr.bilykov.dto.ChangePasswordRequest;
+import pl.luxoft.qpr.bilykov.dto.UserRequest;
+import pl.luxoft.qpr.bilykov.dto.templates.EmailTemplateCommon;
+import pl.luxoft.qpr.bilykov.dto.templates.ResetPasswordTemplate;
+import pl.luxoft.qpr.bilykov.email.EmailSenderImpl;
+import pl.luxoft.qpr.bilykov.exception.UserServiceException;
+import pl.luxoft.qpr.bilykov.model.User;
+import pl.luxoft.qpr.bilykov.repository.ChangePasswordRequestRepository;
+import pl.luxoft.qpr.bilykov.repository.RoleRepository;
+import pl.luxoft.qpr.bilykov.repository.UserRepository;
+import pl.luxoft.qpr.bilykov.service.MessageService;
+import pl.luxoft.qpr.bilykov.service.UserService;
 
 @Component
 public class UserServiceDefault implements UserService {

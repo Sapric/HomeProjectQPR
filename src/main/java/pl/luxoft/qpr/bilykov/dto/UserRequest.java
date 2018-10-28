@@ -2,7 +2,6 @@ package pl.luxoft.qpr.bilykov.dto;
 
 import lombok.Data;
 import pl.luxoft.qpr.bilykov.dto.sequences.user.GroupUser;
-import ua.com.homebudget.dto.sequences.user.GroupUser;
 
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;

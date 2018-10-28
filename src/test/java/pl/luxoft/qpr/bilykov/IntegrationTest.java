@@ -21,7 +21,7 @@ import org.springframework.test.context.support.DirtiesContextTestExecutionListe
 import org.springframework.test.context.web.WebAppConfiguration;
 
 import pl.luxoft.qpr.bilykov.configuration.TestAppConfiguration;
-import ua.com.homebudget.configuration.TestAppConfiguration;
+import pl.luxoft.qpr.bilykov.configuration.TestAppConfiguration;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = { TestAppConfiguration.class })

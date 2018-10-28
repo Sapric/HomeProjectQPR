@@ -16,8 +16,8 @@ import org.springframework.security.crypto.codec.Base64;
 import org.springframework.stereotype.Component;
 
 import lombok.extern.slf4j.Slf4j;
-import ua.com.homebudget.dto.ChangePasswordRequestToken;
-import ua.com.homebudget.exception.UserServiceException;
+import pl.luxoft.qpr.bilykov.dto.ChangePasswordRequestToken;
+import pl.luxoft.qpr.bilykov.exception.UserServiceException;
 
 @Component
 @Scope(value = "singleton")

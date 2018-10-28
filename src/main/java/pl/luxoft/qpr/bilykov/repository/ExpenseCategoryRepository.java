@@ -1,7 +1,7 @@
 package pl.luxoft.qpr.bilykov.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ua.com.homebudget.model.ExpenseCategory;
+import pl.luxoft.qpr.bilykov.model.ExpenseCategory;
 
 import java.util.List;
 

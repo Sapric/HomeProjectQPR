@@ -5,12 +5,12 @@ import org.springframework.stereotype.Component;
 import pl.luxoft.qpr.bilykov.exception.IncomeCategoryServiceException;
 import pl.luxoft.qpr.bilykov.repository.IncomeCategoryRepository;
 import pl.luxoft.qpr.bilykov.repository.UserRepository;
-import ua.com.homebudget.dto.IncomeCategoryRequest;
-import ua.com.homebudget.exception.IncomeCategoryServiceException;
-import ua.com.homebudget.model.IncomeCategory;
-import ua.com.homebudget.repository.IncomeCategoryRepository;
-import ua.com.homebudget.repository.UserRepository;
-import ua.com.homebudget.service.IncomeCategoryService;
+import pl.luxoft.qpr.bilykov.dto.IncomeCategoryRequest;
+import pl.luxoft.qpr.bilykov.exception.IncomeCategoryServiceException;
+import pl.luxoft.qpr.bilykov.model.IncomeCategory;
+import pl.luxoft.qpr.bilykov.repository.IncomeCategoryRepository;
+import pl.luxoft.qpr.bilykov.repository.UserRepository;
+import pl.luxoft.qpr.bilykov.service.IncomeCategoryService;
 
 import java.util.List;
 
