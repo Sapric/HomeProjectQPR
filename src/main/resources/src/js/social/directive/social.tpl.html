@@ -1,0 +1,8 @@
+
+<form action="{{ providerURL }}" method="POST">
+    <button type="submit" class="btn btn-block hb-btn-social hb-btn-{{ provider }}">
+        <span class="capitalize">{{ label }}</span>
+    </button>
+    <input name="scope" type="hidden" value="{{ providerSetting }}"/>
+    <input name="_csrf" type="hidden" value="{{ csrf }}"/>
+</form>

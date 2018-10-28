@@ -1,0 +1,52 @@
+<div id="register" class="container-fluid" >
+        <div class="row">
+            <img src="http://lorempixel.com/400/200/cats/1/" alt="Logo" class="img-rounded center-block form-group pad-image">
+        </div>
+        <form  name="registerform" role="form" ng-submit="submit()" ng-controller="RegisterController as ctrl">
+        
+            <div class="row pad-form">
+                <div class=" col-md-4 col-md-offset-4  ">
+                    <div class="form-group ">
+                        <input class=" form-control input-lg " name="email" type="text" translate translate-attr-placeholder="register.form.email" placeholder="Email Address" validateEmail  ng-model="userata.email" />
+                    </div>
+                    <ng-messages for="registerform.email.$error" role="alert">
+                            <div class="alert alert-danger" ng-message="required"><span translate="validation.email_required"></span></div>
+                            <div class="alert alert-danger" ng-message="regexp"><span translate="validation.email_regexp"></span></div>
+                            <div class="alert alert-danger" ng-message="emaillength"><span translate="validation.email_length"></span></div>
+                    </ng-messages>
+                    <div class="form-group">
+                        <input class="form-control input-lg" name="password" type="password" translate translate-attr-placeholder="register.form.password"  placeholder="Enter Password" validatePassword ng-model="userdata.password">
+                    </div>
+                    <ng-messages for="registerform.password.$error" role="alert">
+                            <div class="alert alert-danger" ng-message="required"><span translate="validation.password_required"></span></div>
+                            <div class="alert alert-danger" ng-message="regexp"><span translate="validation.password_regexp"></span></div>
+                            <div class="alert alert-danger" ng-message="passwordlength"><span translate="validation.password_length"></span></div>
+                    </ng-messages>
+                    <div ng-if="ctrl.error" class="alert alert-danger"> {{ctrl.message}}</div>
+                    <div ng-if="!ctrl.error && ctrl.error !== undefined" class="alert alert-info"> {{ctrl.message}}</div> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 ">
+                    <input type="submit" translate translate-attr-value="register.form.submit" value="Register" ng-disabled="registerform.$invalid || registerform.email.$pristine || registerform.password.$pristine" class="btn btn-primary btn-lg btn-block center-block" />
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+	    <br/>
+            <div class="col-md-4 col-md-offset-4 ">
+                <hr/>
+                <p class="text-center" translate="register.alternative_login">or connect with</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-4 ">
+                <hb-social ng-provider="facebook"></jh-social>
+            </div>
+            <div class="col-md-2 ">
+                <hb-social ng-provider="google"></jh-social>
+            </div>
+            </div>
+        </div>
+    </div>

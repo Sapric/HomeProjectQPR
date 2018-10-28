@@ -1,0 +1,302 @@
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "sprite";
+
+/*Color vars*/
+$blue: #78fff5;
+$green: #7fe878;
+$green-light: #67e8b4;
+$gray: #bec4c5;
+$content: #222627;
+$red: #d9534f;
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+
+    font-size: 14px;
+
+    color: $content;
+    background: #fff;
+}
+
+ul {
+    padding-left: 0;
+
+    li {
+        margin-bottom: 10px;
+
+        list-style-type: none;
+    }
+}
+
+a {
+    text-decoration: none;
+
+    color: #3b2fbd;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+h2 {
+    margin: 0;
+
+    font-size: 20px;
+
+    color: $content;
+}
+
+.b-page {
+    height: 100%;
+    padding: 30px 0 0 0;
+
+    > .row {
+        height: 100%;
+    }
+}
+
+.b-sidebar {
+    height: 100%;
+
+    border-right: 1px solid #ccc;
+}
+
+.b-main {
+    height: 100%;
+}
+
+.user {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+
+    border-bottom: 1px solid #ccc;
+
+    &__image {
+        float: left;
+
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    &__mail {
+        float: left;
+        margin-left: 30px;
+    }
+}
+
+.menu {
+    margin-bottom: 30px;
+
+    &__item {
+        border-radius: 4px;
+        background: $gray;
+
+        a {
+            border-radius: 4px;
+        }
+    }
+
+    &__icon {
+        display: inline-block;
+        margin-right: 10px;
+
+        vertical-align: middle;
+
+        &_transactions {
+            @include sprite($ico-transactions);
+        }
+
+        &_statistics {
+            @include sprite($ico-statistics);
+        }
+
+        &_settings {
+            @include sprite($ico-settings);
+        }
+    }
+}
+
+.auth {
+    float: none;
+    min-height: 600px;
+
+    &__logo {
+        margin-bottom: 30px;
+
+        text-align: center;
+
+        img {
+            width: 200px;
+        }
+    }
+
+    &__form {
+        margin-bottom: 30px;
+    }
+
+    fieldset {
+        margin-bottom: 10px;
+
+        text-align: center;
+
+        button {
+            margin-top: 50px;
+        }
+    }
+}
+
+.transaction {
+    textarea {
+        display: inline-block;
+        width: 83%;
+        height: 112px;
+        padding: 10px;
+        margin-right: 44px;
+
+        vertical-align: bottom;
+    }
+
+    &__header {
+        padding: 10px 15px;
+
+        background: $green;
+    }
+
+    &__sum {
+        fieldset {
+            display: inline-block;
+            width: 50px;
+
+            text-align: left;
+
+            .btn {
+                width: 34px;
+                height: 34px;
+
+                &:first-child {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    &__amount {
+        display: inline-block;
+        width: 90px;
+        height: 79px;
+        padding: 15px;
+
+        font-size: 31px;
+
+        vertical-align: top;
+
+        color: $red;
+        border: 1px solid #ccc;
+    }
+
+    &__info {
+        .btn {
+            padding: 0 20px;
+
+            font-size: 22px;
+
+            text-align: center;
+
+            color: #fff;
+        }
+    }
+
+    &__additional,
+    &__calendar,
+    &__sum {
+        display: inline-block;
+        margin: 20px 20px 20px 0;
+
+        vertical-align: top;
+    }
+
+    &__additional {
+        width: 59%;
+    }
+
+    &__calendar {
+        padding-left: 40px;
+        margin: 20px 0;
+
+        .btn {
+            padding: 0 10px;
+
+            font-size: 22px;
+        }
+    }
+}
+
+
+.pad-image {
+    margin-top: 50px;
+}
+.pad-btn {
+    margin-top: 100px;
+}
+.pad-form {
+    padding-top: 50px;
+}
+.btn-height {
+    height: 80px;
+}
+
+// input.ng-invalid {
+//     @extend .has-error;
+// }
+input.ng-invalid {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+input.ng-invalid:focus {
+    border-color: #843534;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+}
+
+.capitalize {text-transform:capitalize;}
+
+
+/* ==========================================================================
+Social button
+========================================================================== */
+.hb-btn-social {
+    margin-bottom: 5px;
+}
+
+
+.hb-btn-google {
+    background-color: #dd4b39;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.hb-btn-google:hover, .hb-btn-google:focus, .hb-btn-google:active, .hb-btn-google.active, .open > .dropdown-toggle.hb-btn-google {
+    background-color: #c23321;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.hb-btn-facebook {
+    background-color: #3b5998;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.hb-btn-facebook:hover, .hb-btn-facebook:focus, .hb-btn-facebook:active, .hb-btn-facebook.active, .open > .dropdown-toggle.hb-btn-facebook {
+    background-color: #2d4373;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}

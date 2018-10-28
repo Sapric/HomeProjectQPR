@@ -1,0 +1,28 @@
+{
+  "name": "HomeBudget",
+  "version": "0.1.0",
+  "keywords": [
+    "money",
+    "power",
+    "home",
+    "budget",
+    "management"
+  ],
+  "description": "HomeBudget",
+  "dependencies": {
+    "angular": "~1.4",
+    "jquery": "~2.1.0",
+    "angular-route": "~1.4.7",
+    "angular-messages": "~1.4.7",
+    "angular-translate": "~2.10",
+    "bootstrap-sass": "~3.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HomeBudgetProject/HomeBudget.git"
+  },
+  "authors": [
+    "Ruslan Grigoryev <rus.grigoryev@gmail.com>",
+    "Ruslan Kostrub <kostrub.r.v@gmail.com>"
+  ]
+}
